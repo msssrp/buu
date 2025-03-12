@@ -1,6 +1,6 @@
 services:
   express:
-    image: env-7960482.proen.app.ruk-com.cloud:8443/buu/express/main:latest
+    image: siripoom/express:latest
     ports:
     - "3000:3000"
     container_name: "express-app"
