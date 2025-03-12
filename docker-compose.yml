@@ -1,6 +1,0 @@
-services:
-  express:
-    image: siripoom/express:4
-    ports:
-    - "3000:3000"
-    container_name: "express-app"
